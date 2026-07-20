@@ -1,44 +1,39 @@
 # Project Liminal
 
-A multiplayer psychological horror VR exploration game for Meta Quest 2 and Meta Quest 3.
+Welcome to the Project Liminal repository.
 
-## Project Status
+If you are new to the project, read the documentation in the following order.
 
-Early pre-production.
+## Start Here
 
-## Technology
+1. Core/PROJECT_STATE.md
+2. Core/PROJECT_OVERVIEW.md
+3. Core/PROJECT_CONSTITUTION.md
 
-- Unity 6000.3.20f1
-- Meta Quest 2
-- Meta Quest 3
-- Visual Studio Code
-- Codex
-- GitHub Desktop
-- GitHub
+## Understand the Design
 
-## Documentation
+4. Design/GAME_BIBLE.md
+5. Design/APPROVED_DECISIONS.md
 
-The main project documentation can be found in:
+## Understand the Technical Architecture
 
-`Documentation/`
+6. Technical/TECHNICAL_ARCHITECTURE.md
+7. Technical/CODEX_CONTEXT.md
 
-Important files:
+## Understand Project History
 
-- `GAME_BIBLE.md`
-- `APPROVED_DECISIONS.md`
-- `TECHNICAL_ARCHITECTURE.md`
-- `SPRINT_HISTORY.md`
-- `CHANGELOG.md`
-- `CODEX_CONTEXT.md`
+8. Development/SPRINT_HISTORY.md
+9. Development/CHANGELOG.md
 
-## Development Roles
+## AI Continuation
 
-- Creative Director: Human developer
-- Technical Lead: ChatGPT
-- Game Developer: Codex
+If you are ChatGPT:
 
-## Development Workflow
+Read:
 
-The project is developed in controlled sprints.
+Development/CHATGPT_CONTINUATION.md
 
-Major features must be discussed, planned, approved, implemented, tested, reviewed, and committed.
+before contributing.
+
+Documentation Version: 1.0
+Last Documentation Audit: YYYY-MM-DD
