@@ -4,7 +4,7 @@
 **Document Owner:** Technical Lead  
 **Status:** Living  
 **Version:** 1.0  
-**Last Updated:** 2026-07-20
+**Last Updated:** 2026-07-21
 **Unity version is locked to 6000.3.20f1**
 ---
 
@@ -24,13 +24,13 @@ It answers one question:
 
 **Sprint:** A1
 
-**Sprint Status:** In Planning
+**Sprint Status:** In Progress — A1.5 implemented, pending Technical Lead review and device validation
 
 ---
 
 # Current Objective
 
-Begin implementation of Sprint A1 by establishing the project's core XR foundation.
+Validate the A1.5 Unity locomotion integration on Meta Quest hardware.
 
 This sprint focuses on creating a stable, scalable VR framework that will support all future gameplay systems while maintaining performance on Meta Quest 2 and Meta Quest 3.
 
@@ -62,11 +62,15 @@ Core gameplay direction has been established, but additional design work is requ
 
 ## Technical
 
-Status: Planning Complete
+Status: In Progress
 
-Sprint A1 has been planned and approved.
+Completed foundations:
 
-Implementation has **not** yet begun.
+- XR packages and Android OpenXR configuration.
+- Canonical XR Player prefab.
+- Project-owned XR locomotion input actions.
+- XRI continuous movement, continuous turning, gravity, collision, and capsule alignment.
+- Minimal XR validation scene.
 
 ---
 
@@ -83,13 +87,13 @@ Status: Healthy
 
 # Current Blockers
 
-None.
+- Quest device validation is still required for A1.5 locomotion and comfort tuning.
 
 ---
 
 # Immediate Next Action
 
-Continue Sprint A0.5 by completing the remaining documentation.
+Technical Lead review followed by Creative Director testing of A1.5 on Quest hardware.
 
 ---
 
@@ -128,7 +132,7 @@ Excludes:
 
 ## In Progress
 
-- A1 – Technical Foundation (In planning)
+- A1 – Technical Foundation
 
 ---
 

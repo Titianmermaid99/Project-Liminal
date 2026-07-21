@@ -183,3 +183,40 @@ None.
 Sprint A0.5 successfully established the documentation, workflow, and project governance required to support long-term development.
 
 Future sprints should follow the processes defined during this sprint.
+
+---
+
+## Sprint A1.5 — Unity Locomotion Integration
+
+**Status:** Pending Technical Lead Review
+
+**Implementation Date:** 2026-07-21
+
+### Objective
+
+Integrate Unity XR Interaction Toolkit continuous locomotion with the canonical XR Player foundation.
+
+### Deliverables
+
+- Project-owned XR locomotion Input Actions containing only Move and Turn.
+- Head-relative continuous movement from the left controller thumbstick.
+- Continuous turning from the right controller thumbstick.
+- XRI locomotion mediator and body transformer integration.
+- XRI gravity, ground detection, CharacterController collision, and headset-relative capsule alignment.
+- Minimal XRValidation scene containing the Player, floor, boundary walls, and basic lighting.
+
+### Decisions Made
+
+- Unity/XRI locomotion components remain the implementation authority.
+- Continuous turn speed uses the approved Project Liminal default of 45°/second; movement and other untuned XRI values remain provisional until Creative Director headset testing.
+- Snap turning, teleportation, and custom locomotion scripts remain excluded.
+
+### Verification Status
+
+- Unity import and compilation: completed.
+- Repository and prefab configuration inspection: completed.
+- Quest headset locomotion testing: pending.
+
+### Technical Debt Introduced
+
+None. Comfort and speed tuning remain intentional validation work rather than technical debt.

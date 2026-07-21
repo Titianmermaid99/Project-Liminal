@@ -55,6 +55,22 @@ The host should be responsible for generating authoritative shared world state.
 
 Interactions should favour physical VR interaction wherever practical.
 
+### XR Player and Locomotion
+
+The canonical Player uses a single PlayerRoot containing Unity's `XROrigin` and `CharacterController`.
+
+Locomotion uses XR Interaction Toolkit components:
+
+- `LocomotionMediator`
+- `XRBodyTransformer`
+- `GravityProvider`
+- `ContinuousMoveProvider`
+- `ContinuousTurnProvider`
+
+Movement is head-relative and bound to the left controller thumbstick. Continuous turning is bound to the right controller thumbstick. The XRI body transformer and CharacterController body manipulator own collision-constrained movement and headset-relative capsule alignment.
+
+Teleportation, snap turning, jumping, flying, and custom movement physics are excluded from the current foundation. Continuous turn speed uses the approved Project Liminal default of 45°/second and remains editable through the serialized XRI provider configuration. Movement speed retains its Unity default until Quest device testing.
+
 ---
 
 ## Performance

@@ -4,7 +4,7 @@
 **Document Owner:** Technical Lead  
 **Status:** Living  
 **Version:** 1.0  
-**Last Updated:** YYYY-MM-DD
+**Last Updated:** 2026-07-21
 
 ---
 
@@ -13,6 +13,26 @@
 This document allows any future ChatGPT conversation to continue development of Project Liminal without relying on previous conversation memory.
 
 The repository is the authoritative source of truth.
+
+## Current Implementation State
+
+As of 2026-07-21, Sprint A1 is in progress through A1.5.
+
+Implemented:
+
+- Unity 6000.3.20f1 Android OpenXR foundation.
+- Oculus Touch Controller interaction profile.
+- Canonical Player prefab using XROrigin and CharacterController on PlayerRoot.
+- Project-owned XR locomotion actions.
+- XRI continuous movement, continuous turning, gravity, collision, ground detection, and capsule alignment.
+- Minimal XRValidation scene.
+
+Immediate next action:
+
+- Technical Lead review of A1.5.
+- Creative Director Quest device testing before locomotion values are tuned or A1.5 is closed.
+
+Do not add teleportation, snap turning, hand tracking, custom movement physics, or later gameplay systems while reviewing A1.5.
 
 ---
 
