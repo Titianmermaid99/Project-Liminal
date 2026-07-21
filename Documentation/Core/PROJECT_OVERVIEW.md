@@ -115,13 +115,13 @@ These pillars are defined in PROJECT_CONSTITUTION.md.
 
 Current Sprint
 
-A0.5 – Project Foundation
+A1 – Core XR Foundation
 
 Current Focus
 
-Building the project's long-term documentation and development infrastructure.
+Establishing the project's core XR framework for controller-based virtual reality gameplay.
 
-Gameplay implementation will resume with Sprint A1 after the documentation foundation has been completed.
+Sprint A1 will create the stable technical foundation required for future interaction, locomotion, multiplayer, procedural generation, and gameplay systems while maintaining Meta Quest 2 performance as the minimum target.
 
 ---
 

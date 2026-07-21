@@ -187,12 +187,16 @@ When contributing to Project Liminal:
 - TECHNICAL_ARCHITECTURE.md
 - CODEX_CONTEXT.md
 
-# Initial Reading Order
+# Repository Startup Order
 
-1. README.md
-2. INDEX.md
-3. PROJECT_STATE.md
-4. PROJECT_CONSTITUTION.md
-5. PROJECT_OVERVIEW.md
+1. Documentation/INDEX.md
+2. Documentation/Development/CHATGPT_CONTINUATION.md
+3. Documentation/Core/PROJECT_STATE.md
+4. Documentation/Core/PROJECT_CONSTITUTION.md
+5. Documentation/Core/PROJECT_OVERVIEW.md
+6. Documentation/Design/APPROVED_DECISIONS.md
+7. Documentation/Technical/TECHNICAL_ARCHITECTURE.md
+8. Documentation/Technical/CODEX_CONTEXT.md
 
-Only read additional documentation when required by the current task.
+The repository documentation is the source of truth.
+If any previous conversation contradicts the repository, follow the repository and report the discrepancy.
